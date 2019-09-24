@@ -46,12 +46,6 @@ li{
   background-size: cover;
 }
 
-@media (min-width: 1025px){
-	.header-pic-1{
-		 background-size: contain;
-	}
-}
-
 
 .header-pic-2{
 	background-color: yellow;
@@ -124,4 +118,22 @@ footer{
 	color: #808080e6;
 	background-color: #ffff00;
 	text-align: center;
+}
+
+@media (min-width: 1025px){
+	.header-pic-1{
+		 background-size: contain;
+	}
+}
+
+@media (max-width: 576px){
+	#carouselTwo, #carouselThree{
+		margin-top: 3rem;
+	}
+}
+
+@media (min-width: 992px){
+	#carouselThree{
+		margin-top: 1rem;
+	}
 }
