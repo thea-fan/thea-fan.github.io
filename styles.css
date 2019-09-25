@@ -112,6 +112,10 @@ li a{
 	color: black !important;
 }
 
+button{
+	background-color: transparent;
+}
+
 footer{
 	width: 100%;
 	margin-top: 5rem;
